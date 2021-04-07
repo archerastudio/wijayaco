@@ -169,12 +169,32 @@ Primary use:	HTML Template for Law Firm
   right: 0;
   bottom: 0; }
 
+/* eb-garamond-regular - latin */
 @font-face {
-  font-family: 'fontello';
-  src: url("../fonts/fontello.eot?13180315");
-  src: url("../fonts/fontello.eot?13180315#iefix") format("embedded-opentype"), url("../fonts/fontello.woff?13180315") format("woff"), url("../fonts/fontello.ttf?13180315") format("truetype"), url("../fonts/fontello.svg?13180315#fontello") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/eb-garamond-v15-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/eb-garamond-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/eb-garamond-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/eb-garamond-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/eb-garamond-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/eb-garamond-v15-latin-regular.svg#EBGaramond') format('svg'); /* Legacy iOS */
+}
+/* eb-garamond-600 - latin */
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/eb-garamond-v15-latin-600.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/eb-garamond-v15-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/eb-garamond-v15-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/eb-garamond-v15-latin-600.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/eb-garamond-v15-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/eb-garamond-v15-latin-600.svg#EBGaramond') format('svg'); /* Legacy iOS */
+}
 
 span[class^="icon-"]:before,
 span[class*=" icon-"]:before {
