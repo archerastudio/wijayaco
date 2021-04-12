@@ -197,7 +197,7 @@ Primary use:	HTML Template for Law Firm
 }
 
 /* CSS Custom and Creation */
-
+@media (min-width: 991px) {
 .logo img {
   width: 50% !important;
 }
@@ -206,6 +206,20 @@ Primary use:	HTML Template for Law Firm
   padding-bottom: -110px !important;
   margin-bottom: -100px !important;
 }
+
+}
+
+@media (max-width: 991px) {
+  .logo img {
+    width: 80% !important;
+  }
+  
+  .logo {
+    padding-bottom: -110px !important;
+    margin-bottom: 0px !important;
+  }
+  
+  }
 
 .bars {
   size: 10px;
@@ -849,9 +863,9 @@ span[class*=" icon-"]:before {
   float: right;
   max-width: 900px;
   position: relative;
-  /* padding: 20px 17px 0 0; */
+  padding: 20px 17px 0 0;
   padding-top: 5px;
-  padding-bottom: -50px !important;
+  /* padding-bottom: -50px !important; */
   }
   @media only screen and (max-width: 1209px) {
     .nav-holder {
