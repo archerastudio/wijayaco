@@ -151,7 +151,7 @@ Primary use:	HTML Template for Law Firm
   overflow: hidden;
   position: relative; }
 
-.logo img, #nav ul li .mega-drop .alignright img, #nav2 .mega-drop .alignright img, #nav3 .mega-drop .alignright img, .practice-col a img, .news-post .alignleft img, .success-col .video-block img, .quotes-pagination li img, .team-col .img-box img, .story-post .stroy-box .alignleft img, .events-info .alignleft img, .related-events .events-box .img-box img, .clients-carousel .clients-mask .clients-slide .img-holder img, .news-column .alignleft img, .post-blog .post-img img, .events-post .img-holder img, .author-box .alignleft img, .commment-box .alignleft img, .blog-post .blog-img img, .blog-slide img, .about-block .alignleft img, .event-post .event-img img, .event-planers li a img, .map-holder img, .team-details .alignleft img, .video-block2 img, .testimonial-post cite .alignleft img {
+ #nav ul li .mega-drop .alignright img, #nav2 .mega-drop .alignright img, #nav3 .mega-drop .alignright img, .practice-col a img, .news-post .alignleft img, .success-col .video-block img, .quotes-pagination li img, .team-col .img-box img, .story-post .stroy-box .alignleft img, .events-info .alignleft img, .related-events .events-box .img-box img, .clients-carousel .clients-mask .clients-slide .img-holder img, .news-column .alignleft img, .post-blog .post-img img, .events-post .img-holder img, .author-box .alignleft img, .commment-box .alignleft img, .blog-post .blog-img img, .blog-slide img, .about-block .alignleft img, .event-post .event-img img, .event-planers li a img, .map-holder img, .team-details .alignleft img, .video-block2 img, .testimonial-post cite .alignleft img {
   width: 100%;
   display: block;
   height: auto; }
@@ -197,6 +197,19 @@ Primary use:	HTML Template for Law Firm
 }
 
 /* CSS Custom and Creation */
+
+.logo img {
+  width: 50% !important;
+}
+
+.logo {
+  padding-bottom: -110px !important;
+  margin-bottom: -100px !important;
+}
+
+.bars {
+  size: 10px;
+}
 
 .ignielToTop {width:50px; height:50px; position:fixed; bottom:50px; right: 50px; z-index:99; cursor:pointer; border-radius:100px; transition:all .5s; background:#212F59 url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat center center;}
 .ignielToTop:hover {background:#212F59 url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat center center;}
@@ -836,7 +849,10 @@ span[class*=" icon-"]:before {
   float: right;
   max-width: 900px;
   position: relative;
-  padding: 20px 17px 0 0; }
+  /* padding: 20px 17px 0 0; */
+  padding-top: 5px;
+  padding-bottom: -50px !important;
+  }
   @media only screen and (max-width: 1209px) {
     .nav-holder {
       max-width: 750px;
