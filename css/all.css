@@ -136,6 +136,36 @@ Primary use:	HTML Template for Law Firm
 /* Tabs */
 /* container sizes */
 /* Media queries breakpoints */
+
+.address-line {
+  margin-top: -175px;
+}
+
+.address-line h2{
+  font-weight: 800;
+  font-size: large;
+}
+
+.whatsapp-ico{
+  fill: white;
+  width: 50px;
+  height: 50px;
+  padding: 3px;
+  background-color: #4dc247;
+  border-radius: 50%;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+  /* box-shadow: 2px 2px 11px rgba(0,0,0,0.7); */
+  position: fixed;
+  bottom: 20px;
+  right : 20px;
+  z-index: 10;
+}
+
+.whatsapp-ico:hover{
+  box-shadow: 2px 2px 11px rgba(0,0,0,0.7);
+}
+
+
 #header:after, .header-content:after, #nav2:after, #nav2 > ul:after, .slide-content:after, .info-list:after, .post-nav:after, .email-form:after, .email-form .form-group:after, .contact-info ul:after, .socialnetworks2:after, .author-box:after, .commment-box:after, .leave-comment:after, .comments-form:after, .comments-form .form-row:after, .progress-box:after, .progress-box .progress-frame:after, .team-nav:after, .team-info-nav:after, .consult-form:after, .consult-form .form-row:after, .consult-form .form-row.textarea .form-group:after, .pricing-plan:after, .plans-heading:after, .forget-form:after, .forget-form .form-group:after, .attorneys-form:after, .attorneys-form .form-group:after {
   content: " ";
   display: block;
@@ -853,7 +883,7 @@ span[class*=" icon-"]:before {
 6. logo / .logo
 -------------------------------------------------------------------*/
 .logo {
-  width: 197px;
+  width: 350px;
   height: 70px;
   float: left;
   margin: 0 0 0 15px; }
@@ -4605,7 +4635,10 @@ span[class*=" icon-"]:before {
     text-align: center;
     padding: 15px 0 13px; }
     .header-block .logo {
-      margin: 0 auto; }
+      margin: 0;
+      margin: 0; }
+    .header-block .logo img {
+        width: 900px; }
     .header-block .nav-opener2 {
       display: block;
       position: absolute;
