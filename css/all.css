@@ -142,8 +142,8 @@ Primary use:	HTML Template for Law Firm
 }
 
 .address-line h2{
-  font-weight: 800;
-  font-size: large;
+  font-weight: 600;
+  font-size: medium;
 }
 
 .whatsapp-ico{
@@ -886,8 +886,8 @@ span[class*=" icon-"]:before {
   width: 290px;
   height: 70px;
   float: left;
-  margin:0 0 0 15px;
-  margin-top: 0.3px !important; }
+  margin-top: -2px !important;
+  }
   @media only screen and (max-width: 1209px) {
     .logo {
       margin: 0;
