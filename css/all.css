@@ -166,6 +166,17 @@ Primary use:	HTML Template for Law Firm
 }
 
 
+#about {
+	background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: white;
+}
+#services {
+	background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: white !important;
+}
+
 #header:after, .header-content:after, #nav2:after, #nav2 > ul:after, .slide-content:after, .info-list:after, .post-nav:after, .email-form:after, .email-form .form-group:after, .contact-info ul:after, .socialnetworks2:after, .author-box:after, .commment-box:after, .leave-comment:after, .comments-form:after, .comments-form .form-row:after, .progress-box:after, .progress-box .progress-frame:after, .team-nav:after, .team-info-nav:after, .consult-form:after, .consult-form .form-row:after, .consult-form .form-row.textarea .form-group:after, .pricing-plan:after, .plans-heading:after, .forget-form:after, .forget-form .form-group:after, .attorneys-form:after, .attorneys-form .form-group:after {
   content: " ";
   display: block;
@@ -2258,8 +2269,10 @@ span[class*=" icon-"]:before {
 -------------------------------------------------------------------*/
 .main-heading {
   margin-bottom: 70px;
+ 
   text-align: center; }
   .main-heading h2 {
+    margin-top: 50px;
     margin: 0;
     text-transform: uppercase;
     display: inline-block;
